@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   api:
@@ -6,7 +5,7 @@ services:
     build: .
 
     # Nome do contêiner para fácil referência
-    container_name: gestao-escolar-container
+    container_name: api
 
     # Mapeia a porta 8000 do host para a porta 8000 do contêiner
     ports:
